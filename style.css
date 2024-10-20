@@ -1,0 +1,85 @@
+body { 
+    background-color: #db7f93;
+} 
+
+header {
+    color: rgb(248, 16, 105); 
+    text-align: center;
+    height: 8rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 0; 
+    font-family: "granesta", sans-serif;
+    font-size: 3rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.primeira {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: row-reverse; 
+    background-color: rgba(230, 207, 207, 0.7); 
+    padding: 0.5rem 0.25rem; 
+    border-radius: 8px; 
+    margin: 0rem 2rem 2rem; 
+}
+
+.texto {
+    max-width: 500px; 
+    font-size: 1.5rem; 
+    color: rgb(19, 16, 16); 
+    margin-left: 2rem; 
+}
+
+.primeira img {
+    max-width: 50%; 
+    height: auto; 
+}
+
+.segunda-terceira {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgba(230, 207, 207, 0.7); 
+    padding: 1rem; 
+    border-radius: 8px; 
+    margin: 2rem; 
+}
+
+.segunda-img,
+.terceira-img {
+    max-width: 25%; 
+    height: auto; 
+}
+
+.quarta-quinta-sexta {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: rgba(230, 207, 207, 0.7); 
+    padding: 1rem; 
+    border-radius: 8px; 
+    margin: 2rem; 
+}
+
+.foto {
+    max-width: 80%; 
+    height: auto; 
+    margin: 1rem 0; 
+}
+
+/* Classes para cada foto com fundo separado */
+.foto-separada {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco */
+    border-radius: 8px; 
+    padding: 1rem; /* Espaço interno */
+    margin: 1rem; /* Espaço entre as fotos */
+    display: flex; /* Ativar Flexbox */
+    justify-content: center; /* Centraliza a imagem */
+    align-items: center; /* Centraliza a imagem */
+}
