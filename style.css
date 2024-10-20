@@ -74,7 +74,7 @@ h1 {
 }
 
 /* Classes para cada foto com fundo separado */
-.foto-separada {
+.foto {
     background-color: rgba(255, 255, 255, 0.8); /* Fundo branco */
     border-radius: 8px; 
     padding: 1rem; /* Espaço interno */
